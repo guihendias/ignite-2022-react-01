@@ -1,0 +1,16 @@
+.input {
+  display: flex;
+  flex: 1;
+
+  background: var(--gray-500);
+  border: none;
+  padding: 1rem;
+
+  border-radius: 8px;
+
+  color: #fff;
+}
+
+.input::placeholder {
+  color: var(--gray-300);
+}
